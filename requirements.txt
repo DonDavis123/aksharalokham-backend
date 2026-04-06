@@ -1,0 +1,41 @@
+# ============================================================
+#  Aksharalokam AI  ──  Python Dependencies
+#  Install with:  pip install -r requirements.txt
+# ============================================================
+
+# Web framework
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+
+# Data validation
+pydantic>=2.0.0
+
+# PDF processing
+PyMuPDF>=1.23.0
+
+# Vector search
+faiss-cpu>=1.8.0           # swap to faiss-gpu if CUDA is available
+
+# ML / Embeddings
+torch>=2.2.0
+sentence-transformers>=2.7.0
+numpy>=1.26.0
+
+# Image processing
+Pillow>=10.3.0
+
+# Google Cloud – Document AI
+google-cloud-documentai>=2.24.0
+google-auth>=2.29.0
+
+# Google Generative AI (Gemini)
+google-generativeai>=0.5.0
+
+# Firebase Admin SDK
+firebase-admin>=6.4.0
+
+# Environment variable loading
+python-dotenv>=1.0.0
+
+# Multipart / form data support for FastAPI file uploads
+python-multipart>=0.0.9

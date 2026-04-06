@@ -1,0 +1,49 @@
+# ============================================================
+#  Aksharalokam AI  ──  .gitignore
+#  Keeps secrets, large assets, and build artefacts off GitHub
+# ============================================================
+
+# ── Secrets & credentials ────────────────────────────────────
+.env
+credentials/
+*.json          # catches any stray service-account files at project root
+
+# ── User-uploaded documents (can be large / private) ─────────
+documents/
+
+# ── Application logs ─────────────────────────────────────────
+logs/
+*.log
+
+# ── SQLite database ──────────────────────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+
+# ── Python artefacts ─────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Virtual environments ─────────────────────────────────────
+venv/
+.venv/
+env/
+.env/
+
+# ── OS & editor junk ─────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ── Jupyter notebooks (optional, remove if you use them) ─────
+.ipynb_checkpoints/
