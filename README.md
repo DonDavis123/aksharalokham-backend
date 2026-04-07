@@ -25,7 +25,7 @@ Storage Layer: Manages metadata in SQLite and high-dimensional vectors in FAISS.
 Retrieval Layer: Merges semantic search results with visual page context for the LLM.
 
 🔗 Connected Repositories
-Frontend Interface: [Link to your aksharalokham-frontend repo]
+Frontend Interface: [https://github.com/DonDavis123/aksharalokham-frontend]
 
 Live Application: https://akshara-803d3.web.app
 
