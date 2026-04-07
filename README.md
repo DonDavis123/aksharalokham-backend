@@ -10,8 +10,8 @@ Hallucination Guardrails: Features a "Verbatim Mode" for steps and procedures, f
 
 Malayalam-First Intelligence: Specialized prompt engineering ensures the AI prioritizes Malayalam responses and cultural relevance.
 
-📺 System Demo
-[Drag and drop your backend/terminal demo video here while editing on GitHub]
+## 📺 Project Walkthrough
+[![Aksharalokam Demo](https://img.youtube.com/vi/R07azGXrhow/0.jpg)](https://www.youtube.com/watch?v=R07azGXrhow)
 
 🏗️ Technical Architecture
 The backend operates through a sophisticated, multi-layered AI pipeline:
